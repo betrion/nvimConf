@@ -5,3 +5,4 @@ vim.opt.winbar = "%=%m %f"
 vim.opt.scrolloff = 8
 vim.opt.colorcolumn = "80"
 vim.opt.shiftwidth = 4
+vim.cmd([[command W w !sudo tee "%" > /dev/null]])
