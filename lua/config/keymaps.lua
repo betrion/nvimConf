@@ -7,4 +7,4 @@ local keyopts = { silent = true }
 -- Better paste
 keymap("v", "p", '"_dP', keyopts)
 -- Press jj fast to enter
-keymap("i", "jj", "<ESC>", keyopts)
+-- keymap("i", "jj", "<ESC>", keyopts)
