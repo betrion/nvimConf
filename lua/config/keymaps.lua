@@ -6,5 +6,10 @@ local keyopts = { silent = true }
 
 -- Better paste
 keymap("v", "p", '"_dP', keyopts)
+
+-- Keep cursor vertically centered
+keymap("n", "j", "jzz", keyopts)
+keymap("n", "k", "kzz", keyopts)
+
 -- Press jj fast to enter
 -- keymap("i", "jj", "<ESC>", keyopts)
