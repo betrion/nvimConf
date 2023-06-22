@@ -13,3 +13,5 @@ keymap("n", "k", "kzz", keyopts)
 
 -- Press jj fast to enter
 -- keymap("i", "jj", "<ESC>", keyopts)
+-- Press leader then W to SudaWrite
+keymap("n", "<leader>W", ":SudaWrite<CR>", keyopts)
